@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(190, 244, 246); */
+}
+.App{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgba(140, 139, 143, 0.297);
+    transition: 0.5s;
+
+}
+
+.App.dark{
+    background: #222;
+}
